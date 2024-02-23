@@ -32,51 +32,28 @@
     </table>
 
     <h3>FRAMEWORKS</h3>
-    <table>
-        <tr>
-            <th>Technology</th>
-            <th>Years of Experience</th>
-            <th>Last Used</th>
-        </tr>
-        <tr>
-            <td>SPFx</td>
-            <td>4</td>
-            <td>2023</td>
-        </tr>
-    </table>
-
-    <h3>DATABASES</h3>
-    <table>
-        <tr>
-            <th>Technology</th>
-            <th>Years of Experience</th>
-            <th>Last Used</th>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>5</td>
-            <td>2023</td>
-        </tr>
-    </table>
-
-    <h3>OTHER TOOLS</h3>
-    <table>
-        <tr>
-            <th>Technology</th>
-            <th>Years of Experience</th>
-            <th>Last Used</th>
-        </tr>
-        <tr>
-            <td>Docker</td>
-            <td>2</td>
-            <td>2022</td>
-        </tr>
-        <tr>
-            <td>Git, SVN</td>
-            <td>4</td>
-            <td>2023</td>
-        </tr>
-    </table>
+    {%- if skill.table.size > 0 -%}
+    <div class="table-responsive">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Technology</th>
+                    <th>Years of Experience</th>
+                    <th>Last Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                {%- for row in skill.table -%}
+                    <tr>
+                        <td>{{ row.technology }}</td>
+                        <td>{{ row.years_of_experience }}</td>
+                        <td>{{ row.last_used }}</td>
+                    </tr>
+                {%- endfor -%}
+            </tbody>
+        </table>
+    </div>
+    {%- endif -%}
     {%- if skill.items %}
     <div class="items">
       {%- for item in skill.items %}
