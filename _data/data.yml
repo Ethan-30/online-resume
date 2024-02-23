@@ -159,22 +159,30 @@ skill:
   show: true
   order: 4
   title: Skills
+  table: 
+    - technology: TypeScript
+      years_of_experience: 5
+      last_used: 2024
+    - technology: .Net
+      years_of_experience: 3
+      last_used: 2024
+    - technology: ReacJs
+      years_of_experience: 5
+      last_used: 2024
+    - technology: Angular
+      years_of_experience: 3
+      last_used: 2021
+    - technology: Docker
+      years_of_experience: 4
+      last_used: 2024
+    - technology: Git, SVN
+      years_of_experience: 5
+      last_used: 2024
   description: |
     Proficient in ReactJS, adept at building dynamic and responsive front-end applications using components, state management, and routing.
     Skilled in optimizing performance and user experience through React best practices and modern development techniques. Additionally, experienced in .NET framework, specializing in building scalable back-end solutions with ASP.NET Core, C#, 
     and related technologies. Capable of developing web applications, APIs, and services while ensuring database integration, 
     security implementation, and efficient deployment strategies within the .NET ecosystem.
-    <br/><br/> Programming language and framework| Technology     | Years of Experience | Last Used ||----------------|---------------------|-----------|| ReactJS        | 4                   | 2024      || NextJS         | 3                   | 2024      |
-    | Angular        | 2                   | 2021      |
-    | TypeScript     | 3                   | 2024      |
-    | Azure          | 3                   | 2023      |
-    | Power Automate | 3                   | 2023      |
-    | .NET           | 4                   | 2024      |
-    | .SPFx          | 4                   | 2024      |
-    | SQL            | 4                   | 2024      |
-    | Docker         | 4                   | 2024      |
-    | Git, SVN       | 4                   | 2024      |
-    
 
 education:
   show: true
