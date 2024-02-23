@@ -98,27 +98,32 @@ experience:
     The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
 
   items:
-    - company: Second Company
-      link: '#'
+    - company: VMO
+      link: 'https://vmogroup.com'
       tags: Full-time
-      date: 2018.03 - 2019.03
-      role: Backend Developer
-      location: Beijing
+      date: February 2022 – January 2024
+      role: Frontend Developer
+      location: Hanoi
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Developer at VMO, As a Developer at VMO, I have been involved in the development and delivery of high-quality software solutions. Utilize JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborate with cross-functional teams to gather requirements and implement new features. Conduct code reviews and ensure code quality and maintainability.
 
-    - company: First Company
-      link:
-      tags: Part-time, remote
-      date: 2017.03 - 2018.03
-      role: Backend Developer
-      location: Beijing
+    - company: Amela
+      link: 'https://amela.vn'
+      tags: Full-time
+      date: April 2021 – January 2022
+      role: Frontend Developer
+      location: Hanoi
       description: |
-        Your key responsibilities and achievements in the company.
-        + First
-        + Second
+        Frontend Develop at Amela, As a Frontend Developer at Amela, I have contributed to the development of intuitive and user-friendly web applications. Utilize ReactJS, JavaScript, and CSS to develop engaging and intuitive user interfaces. Work closely with designers and back-end developers to implement new features and enhancements. Participate in code reviews and ensure code quality and consistency.
+    
+    - company: Luvina
+      link: 'https://luvina.net/vi/'
+      tags: Full-time
+      date: May 2018 – March 2021
+      role: Developer
+      location: Hanoi
+      description: |
+        Developer at Luvina, As a Developer at Luvina, I played a key role in the development and maintenance of software applications. Utilized JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborated with cross-functional teams to gather requirements and implement new features. Conducted code reviews and ensured code quality and maintainability.
 
 project:
   show: true
@@ -164,41 +169,41 @@ skill:
     There are multiple ways to present your skills here. One way is to show them in a rating format. Another way is to group them together. Alternatively, you can use markdown to format it in a way that you prefer.
 
   items:
-    - name: Skill A
-      level: 5
-    - name: Skill B
-      level: 4
-    - name: Skill C
-      level: 3
-    - name: Skill D
-      level: 4
-    - name: Skill E
-      level: 3
-    - name: Skill F
-      level: 1
-    - name: Skill G
-      level: 4
-    - name: Skill H
-      level: 4
-    - name: Skill I
-      level: 3
+    - name: ReactJs
+      # level: 5
+    - name: .Net
+      # level: 4
+    - name: NodeJs
+      # level: 3
+    - name: SQL
+      # level: 4
+    # - name: Skill E
+    #   level: 3
+    # - name: Skill F
+    #   level: 1
+    # - name: Skill G
+    #   level: 4
+    # - name: Skill H
+    #   level: 4
+    # - name: Skill I
+    #   level: 3
 
-  groups:
-    - name: Group A Skills
-      item:
-        - Skill A
-        - Skill B
-        - Skill C
-        - Skill D
-    - name: Group B Skills
-      item:
-        - Skill E
-        - Skill F
-        - Skill G
-    - name: Group C Skills
-      item:
-        - Skill H
-        - Skill I
+  # groups:
+  #   - name: Group A Skills
+  #     item:
+  #       - Skill A
+  #       - Skill B
+  #       - Skill C
+  #       - Skill D
+  #   - name: Group B Skills
+  #     item:
+  #       - Skill E
+  #       - Skill F
+  #       - Skill G
+  #   - name: Group C Skills
+  #     item:
+  #       - Skill H
+  #       - Skill I
 
 education:
   show: true
