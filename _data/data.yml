@@ -171,14 +171,11 @@ education:
 
   items:
     - institution: Hanoi university of science and technology
-      link: '#'
+      # link: '#'
       date: 2011 - 2018
       major: Control and Automation Engineering
       degree: Bachelor
       description: |
-        # Additional information for this institution.
-        # + First
-        # + Second
 
 certificate:
   show: false
