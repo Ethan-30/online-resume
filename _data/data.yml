@@ -95,17 +95,15 @@ experience:
   order: 2
   title: Experiences
   description: |
-    The experiences section in a resume is a section where you list your previous work experiences and accomplishments. It typically includes information about your previous job titles, companies you worked for, the dates of your employment, and your key responsibilities and achievements in each role. This section is important because it gives potential employers a sense of your work history and the skills and expertise you have developed over time. It can also help demonstrate your ability to contribute value to a new organization based on your past achievements.
-
   items:
     - company: VMO Holdings
       # link: 'https://vmogroup.com'
       tags: Full-time
-      date: February 2022 – January 2024
+      date: February 2022 – Currently
       role: Frontend Developer
       location: Hanoi
       description: |
-        Developer at VMO, As a Developer at VMO, I have been involved in the development and delivery of high-quality software solutions. Utilize JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborate with cross-functional teams to gather requirements and implement new features. Conduct code reviews and ensure code quality and maintainability.
+        Developer at VMO, As a Developer at VMO Holdings, I have been involved in the development and delivery of high-quality software solutions. Utilize JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborate with cross-functional teams to gather requirements and implement new features. Conduct code reviews and ensure code quality and maintainability.
 
     - company: AMELA Technology. JSC
       # link: 'https://amela.vn'
@@ -114,7 +112,7 @@ experience:
       role: Frontend Developer
       location: Hanoi
       description: |
-        Frontend Develop at Amela, As a Frontend Developer at Amela, I have contributed to the development of intuitive and user-friendly web applications. Utilize ReactJS, JavaScript, and CSS to develop engaging and intuitive user interfaces. Work closely with designers and back-end developers to implement new features and enhancements. Participate in code reviews and ensure code quality and consistency.
+        Frontend Develop at Amela, As a Frontend Developer at Amela Technology, I have contributed to the development of intuitive and user-friendly web applications. Utilize ReactJS, JavaScript, and CSS to develop engaging and intuitive user interfaces. Work closely with designers and back-end developers to implement new features and enhancements. Participate in code reviews and ensure code quality and consistency.
     
     - company: Luvina Software
       # link: 'https://luvina.net/vi/'
@@ -123,10 +121,10 @@ experience:
       role: Developer
       location: Hanoi
       description: |
-        Developer at Luvina, As a Developer at Luvina, I played a key role in the development and maintenance of software applications. Utilized JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborated with cross-functional teams to gather requirements and implement new features. Conducted code reviews and ensured code quality and maintainability.
+        Developer at Luvina Software, As a Developer at Luvina, I played a key role in the development and maintenance of software applications. Utilized JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborated with cross-functional teams to gather requirements and implement new features. Conducted code reviews and ensured code quality and maintainability.
 
 project:
-  show: true
+  show: false
   order: 3
   title: Projects
   description: |
@@ -314,15 +312,13 @@ language:
   order: 11
   title: Languages
   description: |
-    The languages section in a resume typically includes information about your proficiency in different languages. This section can be particularly important if you are applying for a job that requires fluency or proficiency in a specific language.
-
-    It's important to be honest about your language proficiency in your resume. If you overstate your abilities, it could lead to problems during the interview process or on the job. If you have taken language courses or earned language certifications, you can also include this information in the languages section of your resume.
+    My English is currently at a basic comprehension level, but I am working diligently to improve my communication skills in speaking and writing.
 
   items:
-    - idiom: Chinese
+    - idiom: Vietnamese
       level: Native
     - idiom: English
-      level: Professional
+      level: Pre-Intermediate
 
 interest:
   show: false
@@ -342,7 +338,7 @@ interest:
       link:
 
 evaluation:
-  show: true
+  show: false
   order: 13
   title: Self-evaluation
   description: |
