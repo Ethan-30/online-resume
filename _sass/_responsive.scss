@@ -4,6 +4,18 @@
     padding: 0;
   }
 
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; /* Center align text in the whole table */
+  }
+  .table, .table th, .table td {
+    border: 1px solid black; /* Add border to table, th, and td */
+  }
+  th {
+    background-color: #f2f2f2; /* Optional: Add background color to headers */
+  }
+
   .wrapper {
     margin: 0;
     padding: $spacing-unit / 2;
