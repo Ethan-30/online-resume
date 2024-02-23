@@ -12,7 +12,71 @@
       {{ skill.description | markdownify }}
     </div>
     {%- endif %}
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Years of Experience</th>
+            <th>Last Used</th>
+        </tr>
+        <tr>
+            <td>ReactJS</td>
+            <td>4</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            <td>NextJS</td>
+            <td>3</td>
+            <td>2023</td>
+        </tr>
+        <!-- More rows as needed -->
+    </table>
 
+    <h3>FRAMEWORKS</h3>
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Years of Experience</th>
+            <th>Last Used</th>
+        </tr>
+        <tr>
+            <td>SPFx</td>
+            <td>4</td>
+            <td>2023</td>
+        </tr>
+    </table>
+
+    <h3>DATABASES</h3>
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Years of Experience</th>
+            <th>Last Used</th>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>5</td>
+            <td>2023</td>
+        </tr>
+    </table>
+
+    <h3>OTHER TOOLS</h3>
+    <table>
+        <tr>
+            <th>Technology</th>
+            <th>Years of Experience</th>
+            <th>Last Used</th>
+        </tr>
+        <tr>
+            <td>Docker</td>
+            <td>2</td>
+            <td>2022</td>
+        </tr>
+        <tr>
+            <td>Git, SVN</td>
+            <td>4</td>
+            <td>2023</td>
+        </tr>
+    </table>
     {%- if skill.items %}
     <div class="items">
       {%- for item in skill.items %}
