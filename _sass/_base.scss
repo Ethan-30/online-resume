@@ -52,6 +52,18 @@ small {
   font-weight: $base-font-weight;
 }
 
+.table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center; /* Center align text in the whole table */
+        }
+        .table, .table th, .table td {
+            border: 1px solid black; /* Add border to table, th, and td */
+        }
+        th {
+            background-color: #f2f2f2; /* Optional: Add background color to headers */
+        }
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -347,16 +359,4 @@ small {
   .description {
     margin: $spacing-unit 0;
   }
-}
-
-.table {
-  width: 100%;
-  border-collapse: collapse;
-  text-align: center; /* Center align text in the whole table */
-}
-.table, .table th, .table td {
-  border: 1px solid black; /* Add border to table, th, and td */
-}
-th {
-  background-color: #f2f2f2; /* Optional: Add background color to headers */
 }
