@@ -12,26 +12,6 @@
       {{ skill.description | markdownify }}
     </div>
     {%- endif %}
-    <table>
-        <tr>
-            <th>Technology</th>
-            <th>Years of Experience</th>
-            <th>Last Used</th>
-        </tr>
-        <tr>
-            <td>ReactJS</td>
-            <td>4</td>
-            <td>2023</td>
-        </tr>
-        <tr>
-            <td>NextJS</td>
-            <td>3</td>
-            <td>2023</td>
-        </tr>
-        <!-- More rows as needed -->
-    </table>
-
-    <h3>FRAMEWORKS</h3>
     {%- if skill.table.size > 0 -%}
     <div class="table-responsive">
         <table class="table">
