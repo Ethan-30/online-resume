@@ -9,11 +9,11 @@ contact:
   # meta
   location: Hanoi, Vietnam # location
   email: matatb93@gmail.com    # email address
-  phone: +84-869-221-235 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
+  phone: +84869221235 # phone number, format is "+[Country Code] [Area Code (if applicable)] [Local Phone Number]"
   # website: example.com     # site URL without schema, like example.com, will automatically prepand "https://"
 
   gender: Male                 # gender or pronoun
-  birthday: 30/1/1993               # birthday
+  birthday: 30/12/1993               # birthday
   # nationality:             # nationality
   # visa:                    # passport visa
   # drivinglicense:          # driving licence
@@ -160,8 +160,7 @@ skill:
   order: 4
   title: Skills
   description: |
-    Proficient in ReactJS, adept at building dynamic and responsive front-end applications using components, state management, and routing. Skilled in optimizing performance and user experience through React best practices and modern development techniques. Additionally, experienced in .NET framework, specializing in building scalable back-end solutions with ASP.NET Core, C#, and related technologies. Capable of developing web applications, APIs, and services while ensuring database integration, security implementation, and efficient deployment strategies within the .NET ecosystem.
-
+    Proficient in ReactJS, adept at building dynamic and responsive front-end applications using components, state management, and routing. Skilled in optimizing performance and user experience through React best practices and modern development techniques. Additionally, experienced in .NET framework, specializing in building scalable back-end solutions with ASP.NET Core, C#, and related technologies. Capable of developing web applications, APIs, and services while ensuring database integration, security implementation, and efficient deployment strategies within the .NET ecosystem.<br/><br/> Skills: - ReactJs, .Net, NodeJs
   # items:
   #   - name: ReactJs
   #     # level: 5
@@ -182,13 +181,13 @@ skill:
     # - name: Skill I
     #   level: 3
 
-  groups:
-    - name: Skills
-      item:
-        - ReactJs
-        - .Net
-        - NodeJs
-        - SQL
+  # groups:
+  #   - name: Skills
+  #     item:
+  #       - ReactJs
+  #       - .Net
+  #       - NodeJs
+  #       - SQL
   #   - name: Group B Skills
   #     item:
   #       - Skill E
