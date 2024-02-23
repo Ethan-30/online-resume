@@ -1,12 +1,15 @@
 @media print {
   @page {
-    size: A4;
-    margin: 0 -6cm;
+    size: A4;    
   }
 
   body {
     font-size: 12pt !important;
     background: $wrapper-color !important;
+  }
+
+  header, footer {
+    display: none;
   }
 
   a::after {
