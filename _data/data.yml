@@ -124,34 +124,28 @@ experience:
         Developer at Luvina Software, As a Developer at Luvina, I played a key role in the development and maintenance of software applications. Utilized JavaScript, C#, SQL, and Git to develop and maintain software applications. Collaborated with cross-functional teams to gather requirements and implement new features. Conducted code reviews and ensured code quality and maintainability.
 
 project:
-  show: false
+  show: true
   order: 3
   title: Projects
   description: |
-    The project section in a resume is a section where you can highlight any significant projects that you have completed during your education, work experience, or personal endeavors. This section provides a detailed description of your projects that can showcase your skills, abilities, and achievements.
-
-    In this section, you should include the name of the project, the role you played in the project, the duration, the tools and technologies you used, the objective of the project, and the outcome or result achieved. You can also include any relevant metrics or data that demonstrate the impact of the project.
-
-    The project section is especially useful for candidates with limited work experience or those looking to highlight specific skills or accomplishments that may not be apparent in other parts of their resume. It can also be beneficial for candidates in technical or creative fields, where projects play a significant role in showcasing their capabilities.
-
+  
   items:
-    - name: Personal project
-      link: '#'
-      tags:
-      date: 2015 - 2017
+    - name: S134
+      tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
+      date: Aug 2023 - Nov 2023
       description: |
-        Personal project description...
-        + First
-        + Second
+      Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
+      migrate data (List Data, Files & Users, Groups) to SharePoint Online,
+      standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
 
-    - name: OSS project
-      link:
-      tags: committer
-      date:
+     - name: S108
+      tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
+      date: Dec 2023 - Currently
       description: |
-        OSS project description...
-        + First
-        + Second
+        Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
+        migrate data (List Data, Files & Users, Groups) to SharePoint Online,
+        standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
+
 
 skill:
   show: true
