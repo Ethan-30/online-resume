@@ -127,7 +127,7 @@ project:
   show: true
   order: 3
   title: Projects
-  description: |
+  description: | My outstanding project
   
   items:
     - name: S134
