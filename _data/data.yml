@@ -134,14 +134,14 @@ project:
       tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
       date: Aug 2023 - Nov 2023
       description: |
-      Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
-      migrate data (List Data, Files & Users, Groups) to SharePoint Online,
-      standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
+        Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
+        migrate data (List Data, Files & Users, Groups) to SharePoint Online,
+        standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
 
      - name: S108
-      tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
-      date: Dec 2023 - Currently
-      description: |
+       tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
+       date: Dec 2023 - Currently
+       description: |
         Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
         migrate data (List Data, Files & Users, Groups) to SharePoint Online,
         standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
