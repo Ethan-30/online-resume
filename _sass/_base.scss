@@ -4,14 +4,20 @@ html {
 }
 
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
   color: $text-color;
   background: $background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -34,18 +40,21 @@ p {
   margin-bottom: 0.25rem;
 }
 
-ol, ul {
+ol,
+ul {
   padding-left: 2rem;
   margin-top: 0;
   margin-bottom: 0.25rem;
 
-  ol, ul {
+  ol,
+  ul {
     margin-bottom: 0;
   }
 }
 
-b, strong {
-  font-weight: $base-font-weight * 1.50;
+b,
+strong {
+  font-weight: $base-font-weight * 1.5;
 }
 
 small {
@@ -57,7 +66,9 @@ small {
   border-collapse: collapse;
   text-align: center; /* Center align text in the whole table */
 }
-.table, .table th, .table td {
+.table,
+.table th,
+.table td {
   border: 1px solid black; /* Add border to table, th, and td */
 }
 th {
@@ -72,7 +83,8 @@ th {
   max-width: $content-width;
   margin: $spacing-unit auto;
   padding: $spacing-unit * 2;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 
   section {
     &:not(:last-child) {
@@ -91,7 +103,7 @@ th {
       border-bottom-width: 1px;
 
       i::after {
-        content: "\00a0";
+        content: '\00a0';
         font-family: initial;
       }
 
@@ -104,10 +116,6 @@ th {
     .section-content {
       .description {
         margin-bottom: $spacing-unit / 2;
-        text-indent: 1rem;
-        p {
-          text-indent: 0rem;
-        }
       }
 
       .items {
@@ -136,7 +144,7 @@ th {
         align-items: baseline;
 
         i::after {
-          content: "\00a0";
+          content: '\00a0';
           font-family: initial;
         }
       }
@@ -147,7 +155,21 @@ th {
         align-items: baseline;
 
         small::before {
-          content: "\00a0";
+          content: '\00a0';
+          font-family: initial;
+        }
+
+        i {
+          font-size: $small-font-size;
+          color: $text-second-color;
+          margin-bottom: $spacing-unit / 2;
+          padding: $spacing-unit / 10 0;
+          border-bottom-color: rgba($text-second-color, 0.25);
+          border-bottom-width: 1px;
+        }
+
+        i::after {
+          content: '\00a0';
           font-family: initial;
         }
       }
@@ -159,7 +181,7 @@ th {
       .publication-title,
       .award-name,
       .reference-name {
-        font-weight: $base-font-weight * 1.50;
+        font-weight: $base-font-weight * 1.5;
       }
 
       .role,
@@ -224,7 +246,7 @@ th {
           }
 
           i::after {
-            content: "\00a0";
+            content: '\00a0';
             font-family: initial;
           }
         }
@@ -250,7 +272,6 @@ th {
 
   .skill {
     .section-content {
-      
       .items {
         display: flex;
         flex-wrap: wrap;
@@ -262,7 +283,7 @@ th {
           flex-basis: 30%;
 
           .skill-name::after {
-            content: "\00a0\00a0";
+            content: '\00a0\00a0';
             font-family: initial;
           }
 
@@ -271,7 +292,7 @@ th {
             color: $text-third-color;
 
             i:not(:last-child)::after {
-              content: "\00a0";
+              content: '\00a0';
               font-family: initial;
             }
           }
@@ -291,7 +312,7 @@ th {
           }
 
           .group-name {
-            font-weight: $base-font-weight * 1.50;
+            font-weight: $base-font-weight * 1.5;
             flex-basis: 20%;
           }
 
@@ -302,7 +323,7 @@ th {
             flex-basis: 80%;
 
             span:not(:last-child)::after {
-              content: "/";
+              content: '/';
               color: $text-third-color;
               margin: 0 0.5em;
             }
@@ -323,13 +344,13 @@ th {
           align-items: baseline;
 
           &:not(:last-child)::after {
-            content: "/";
+            content: '/';
             color: $text-third-color;
             margin: 0 0.5em;
           }
 
           small::before {
-            content: "\00a0";
+            content: '\00a0';
             font-family: initial;
           }
         }
