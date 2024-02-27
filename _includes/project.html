@@ -48,10 +48,7 @@
         <div class="description markdown">
           <p class="institution">Technology stack:</p>
           {%- for tech in item.techStack %}
-          <span>
-            <span class="tech">{{ tech }}</span>
-            <span class="separator">•</span>
-          </span>
+          <span class="tech">{{ tech }}</span>
           {%- endfor %}
         </div>
         {%- endif %}
