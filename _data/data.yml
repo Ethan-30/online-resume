@@ -131,19 +131,44 @@ project:
     My outstanding project
   items:
     - name: S134
-      tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
+      # tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
       date: Aug 2023 - Nov 2023
-      description: |
+      responsibility: |
         Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
         migrate data (List Data, Files & Users, Groups) to SharePoint Online,
         standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
+      description: |
+        - Develop new sites, sib-sites follow the requirement, custom theme follows company brand
+        - Migrate data (List Data, Files & Users, Groups) to SharePoint Online
+        - Standardize data after migration
+        - Migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate
+        - Identify and fix bugs, support tester
+      techStack: |
+        - TypeScript
+        - ReactJs
+        - Azure Service
+        - Fluent UI
+        - Power Automate
     - name: S108
-      tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
+      # tags: SPFx, ReactJs, Azure Service, Fluent UI, Power Automate
       date: Dec 2023 - Currently
-      description: |
+      responsibility: |
         Develop new sites, sib-sites follow the requirement, custom theme follows company brand,
         migrate data (List Data, Files & Users, Groups) to SharePoint Online,
         standardize data after migration, migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate, identify and fix bugs, support tester
+      description: |
+        - Develop new sites, sib-sites follow the requirement, custom theme follows company brand
+        - Migrate data (List Data, Files & Users, Groups) to SharePoint Online
+        - Standardize data after migration
+        - Migrate Nintex SharePoint Workflow and Intelligent Process Automation to MS Power Automate
+        - Identify and fix bugs, support tester
+      techStack: |
+        - TypeScript
+        - ReactJs
+        - Azure Service
+        - Fluent UI
+        - Power Automate
+      
 
 skill:
   show: true

@@ -40,7 +40,25 @@
 
         {%- if item.description.size > 0 %}
         <div class="description markdown">
+          <p class="institution">Project description:</p>
           {{ item.description | markdownify }}
+        </div>
+        {%- endif %}
+        {%- if item.techStack.size > 0 %}
+        <div class="description markdown">
+          <p class="institution">Technology stack:</p>
+          {%- for tech in item.techStack %}
+          <span>
+            <span class="tech">{{ tech }}</span>
+            <span class="separator">•</span>
+          </span>
+          {%- endfor %}
+        </div>
+        {%- endif %}
+        {%- if item.responsibility.size > 0 %}
+        <div class="description markdown">
+          <p class="institution">Responsibility:</p>
+          {{ item.responsibility | markdownify }}
         </div>
         {%- endif %}
         {%- endif %}
